@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2? family= Alfa+Slab+One & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Alfa+Slab+One & family= Source+Code+Pro:wght@200 & display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 7px solid rgb(35, 218, 117);
+
+}
+nav h1{
+        color:rgb(22, 211, 54);
+        font-family: Alfa Slab One;
+        font-size: 40px;
+}
+
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 400px;
+}
+
+nav .onglets a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    border-bottom: 1px solid rgb(12, 11, 11);
+    padding-bottom: 1px;
+}
+footer{
+    margin-top: 40px;
+    border-top: 1px solid black;
+    color: white;
+    background-color: rgb(8, 78, 95);
+    padding: 30px 100px;
+}
+footer h3{
+    font-family: Alfa Slab One;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: 15%;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .services .Services {
+    margin-right: 60px;
+}
+.Services .p{
+    max-width: 300px;
+}
+a {
+    color: rgb(125, 248, 9);
+}
+.main {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+}
+.main p{
+    font-size: 17px;
+    font-family: monospace;
+}
